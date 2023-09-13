@@ -1,7 +1,4 @@
 module.exports = {
-  rules: {
-    'no-console': 'off',
-  },
   "env": {
     "node": true,
     "es6": true,
@@ -46,7 +43,7 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "error",
+    "no-console": "off",
     "react/prop-types": 0
   }
 }
